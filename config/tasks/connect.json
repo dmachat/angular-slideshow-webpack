@@ -8,8 +8,7 @@
     "options": {
       "open": true,
       "base": [
-        "dev",
-        "dev/bower_components"
+        "dev"
       ]
     }
   }
