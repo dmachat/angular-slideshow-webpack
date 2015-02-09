@@ -1,0 +1,41 @@
+{
+  "author": "Drew Machat <drew@alleyinteractive.com>",
+  "name": "angular-slideshow",
+  "repository": "http://github.com/dmachat/angular-slideshow",
+  "version": "0.0.1",
+  "description": "An angular slideshow demo",
+  "homepage": "http://dmachat.github.io/angular-slideshow",
+  "devDependencies": {
+    "6to5-core": "^3.4.1",
+    "6to5-loader": "^3.0.0",
+    "autoprefixer-loader": "^1.1.0",
+    "compass-mixins": "^0.12.3",
+    "css-loader": "~0.9.0",
+    "grunt": "~0.4.5",
+    "grunt-bump": "0.0.16",
+    "grunt-contrib-connect": "^0.9.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-gh-pages": "~0.9.1",
+    "grunt-karma": "^0.10.1",
+    "grunt-webpack": "^1.0.8",
+    "html-loader": "~0.2.3",
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "~0.1.7",
+    "karma-ie-launcher": "~0.1.1",
+    "karma-jasmine": "^0.3.5",
+    "karma-jasmine-html-reporter": "^0.1.6",
+    "karma-phantomjs-launcher": "~0.1.0",
+    "karma-webpack": "^1.5.0",
+    "load-grunt-config": "^0.16.0",
+    "ngtemplate-loader": "^1.0.0",
+    "sass-loader": "^0.3.1",
+    "style-loader": "~0.8.2",
+    "webpack": "^1.5.1",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "scripts": {
+    "postInstall": "bower install"
+  }
+}

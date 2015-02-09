@@ -1,0 +1,19 @@
+# generic (system) files/extensions we don't want
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+.idea/*
+*.DS_Store
+.tmp
+.sass-cache
+.grunt
+lib-cov
+pids
+logs
+results
+node_modules
+bower_components

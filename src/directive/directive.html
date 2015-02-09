@@ -1,0 +1,11 @@
+<button ng-click="vm.activeIndex = vm.activeIndex - 1">
+  &lt;
+</button>
+<img ng-repeat="imageUrl in vm.imageList track by $index"
+  ng-src="{{ imageUrl }}"
+  ng-show="vm.activeIndex === $index"></img>
+<button ng-click="vm.activeIndex = vm.activeIndex + 1">
+  &gt;
+</button>
+<input ng-model="vm.newUrl"></input>
+<button type="button" ng-click="vm.addUrl(vm.newUrl)">Add image to slideshow</button>

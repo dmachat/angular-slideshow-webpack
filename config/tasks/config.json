@@ -1,0 +1,8 @@
+{
+  "src": "src/{,*/}*.js",
+  "sass": "src/{,*/}*.scss",
+  "unit": "test/**/*.js",
+  "e2e": "e2e/**/*.js",
+  "dist": "dist",
+  "module": "angular-slideshow"
+}

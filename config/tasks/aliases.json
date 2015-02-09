@@ -1,0 +1,30 @@
+{
+  "default": [
+    "serve"
+  ],
+  "build": [
+    "webpack:prod"
+  ],
+  "serve": [
+    "jshint:dev",
+    "webpack:dev",
+    "connect:livereload",
+    "watch"
+  ],
+  "test": [
+    "jshint:test",
+    "karma"
+  ],
+  "travis": [
+    "jshint",
+    "test"
+  ],
+  "release": [
+    "build",
+    "bump"
+  ],
+  "pages": [
+    "build",
+    "gh-pages"
+  ]
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<!-- Bootstrap the angular app by specifying ng-app -->
+<html lang="en" ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+
+    <title>angular-slideshow</title>
+
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+
+    <!--[if lt IE 9]>
+      <script src="bower_components/es5-shim/es5-shim.min.js"></script>
+      <script src="bower_components/json3/lib/json3.min.js"></script>
+      <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <!-- This is the DOM element attached to the SimpleCtrl controller with some bootstrap sugar -->
+    <div class="container" ng-controller="SimpleCtrl">
+      <div class="jumbotron">
+        <div class="jumbotron-body">
+          <h1>angular-slideshow</h1>
+          <p>angular-slideshow</p>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Demo/Test</h3>
+        </div>
+        <div class="panel-body">
+          <!-- Directives go here -->
+          <angular-slideshow />
+        </div>
+      </div>
+    
+    </div>
+
+    <!-- Load angular core. You may not end up using the plugins, but they're included here for convenience -->
+    <script type="text/javascript" src="angular/angular.min.js"></script>
+    <script type="text/javascript" src="angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="angular-sanitize/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="angular-touch/angular-touch.min.js"></script>
+    <script type="text/javascript" src="angular-animate/angular-animate.min.js"></script>
+    
+    <script type="text/javascript" src="angular-slideshow.bundle.js"></script>
+    <!-- Alternatively test the minified js -->
+    <!--<script type="text/javascript" src="angular-slideshow.min.js"></script>-->
+
+    <!-- This boilerplate app loads your directive for isolated testing purposes -->
+    <script type="text/javascript" src="SimpleCtrl.js"></script>
+  </body>
+</html>

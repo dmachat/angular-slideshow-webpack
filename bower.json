@@ -1,0 +1,34 @@
+{
+  "name": "angular-slideshow",
+  "version": "0.0.1",
+  "authors": [
+    "Drew Machat <drew@alleyinteractive.com>"
+  ],
+  "description": "An angular slideshow demo",
+  "keywords": [
+    "demo",
+    "angular",
+    "slideshow",
+    "directive"
+  ],
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "config",
+    "dev/index.html"
+  ],
+  "devDependencies": {
+    "angular": "~1.3.12",
+    "angular-animate": "~1.3.12",
+    "angular-sanitize": "~1.3.12",
+    "angular-touch": "~1.3.12",
+    "angular-route": "~1.3.12",
+    "es5-shim": "~2.1.0",
+    "html5shiv": "~3.7.0",
+    "bootstrap": "~3.0.0",
+    "json3": "~3.3.2",
+    "respond": "~1.4.2",
+    "angular-mocks": "~1.3.12"
+  }
+}

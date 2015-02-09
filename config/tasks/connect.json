@@ -1,0 +1,16 @@
+{
+  "options": {
+    "post": 9000,
+    "livereload": 35729,
+    "hostname": "localhost"
+  },
+  "livereload": {
+    "options": {
+      "open": true,
+      "base": [
+        "dev",
+        "bower_components"
+      ]
+    }
+  }
+}

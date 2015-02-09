@@ -1,0 +1,22 @@
+{
+  "all": {
+    "files": [
+      "Gruntfile.js",
+      "config/webpack.config.js",
+      "src/**/*.js",
+      "!src/**/*.spec.es6.js",
+      "src/**/*.html",
+      "src/**/*.scss"
+    ],
+    "tasks": [
+      "jshint:dev",
+      "webpack:dev"
+    ]
+  },
+  "livereload": {
+    "options": {
+      "livereload": true
+    },
+    "files": ["dev/<%= config.module %>.bundle.js"]
+  }
+}

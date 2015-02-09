@@ -1,0 +1,11 @@
+{
+  "options": {
+    "jshintrc": "./.jshintrc"
+  },
+  "dev": [
+    "Gruntfile.js",
+    "src/**/*.js",
+    "!src/**/*.spec.es6.js"
+  ],
+  "test": ["src/**/*.js"]
+}
