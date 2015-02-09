@@ -4,6 +4,7 @@
   "authors": [
     "Drew Machat <drew@alleyinteractive.com>"
   ],
+  "directory": "dev/bower_components",
   "description": "An angular slideshow demo",
   "keywords": [
     "demo",

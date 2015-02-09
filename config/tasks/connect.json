@@ -9,7 +9,7 @@
       "open": true,
       "base": [
         "dev",
-        "bower_components"
+        "dev/bower_components"
       ]
     }
   }
